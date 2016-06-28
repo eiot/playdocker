@@ -12,4 +12,7 @@ ENV XAPPLRESDIR=/usr/local/MATLAB/MATLAB_Runtime/v83/X11/app-defaults
 ENV MCR_CACHE_VERBOSE=true
 ENV MCR_CACHE_ROOT=/tmp
 RUN mkdir /data
-ADD  smoothest /data/
+ADD  run_test_display.sh /data/
+ADD  run_test_2x.sh /data/
+ADD  test_display /data/
+ADD  test_2x /data/
