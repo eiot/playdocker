@@ -16,6 +16,3 @@ ADD  run_test_display.sh /data/
 ADD  run_test_2x.sh /data/
 ADD  test_display /data/
 ADD  test_2x /data/
-
-/usr/local/MATLAB/MATLAB_Compiler_Runtime/v84/sys/java/jre/glnxa64/jre/lib/amd64/native_threads
-/usr/local/MATLAB/MATLAB_Compiler_Runtime/v84/X11/app-defaults
