@@ -38,7 +38,14 @@ addpath(genpath(dirname));  % Add all subdirectory
 cd(dirname);
 
 cd(input_dir); 
-all_list=[dir('c*');dir('p*');dir('s*')];
+
+
+if strcmpi(computer,'PCWIN') |strcmpi(computer,'PCWIN64')
+   all_list=[dir('c*');dir('p*');dir('s*')];
+else
+   all_list=[dir('c*');dir('p*');dir('s*');dir('C*');dir('P*');dir('S*')];
+end
+
 
 for i=1:size(all_list,1)
 
